@@ -1826,9 +1826,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 .ftco-blocks-cover-1 h1 {
   color: #fff !important;
-  font-weight: 900;
+  font-weight: 400;
 	font-family: "Montserrat", sans-serif;
 	text-transform: uppercase;
+  margin-bottom: 15px;
 }
 .ftco-blocks-cover-1 p {
   color: #fff !important;
@@ -1915,9 +1916,55 @@ body {
   position: absolute;
   right: 30px;
 }
+.row.no-gutter.popup-gallery .wow {
+  margin-bottom: 30px;
+}
 .site-section.not-more {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.mar-top figure.effect-ruby h2 {
+  margin-top: 8.5%;
+}
+figure.effect-ruby {
+  border-radius: 10px;
+}
+.custom-btn {
+  display: block;
+  margin: 0px auto;
+  background: #207561;
+  border: none;
+  color: #fff;
+  padding: 6px 15px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+figure.effect-ruby p {
+  border: none !important;
+}
+
+figure.effect-ruby:hover .more-details {
+  border: 2px solid #207561;
+  width: 100%;
+  display: block;
+  background: rgba(0,0,0,0.35);
+  height: 100%;
+  border-radius: 10px;
+}
+figure.effect-ruby:hover figcaption {
+  padding: 1em !important;
+}
+.grid figure p {
+  font-size: 16px !important;
+  margin-top: 0px !important;
+}
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+.sub-slider .ftco-cover-1 {
+  background-size: contain;
+  min-height: 430px;
 }
 @media screen and (min-width: 1400px) {
   .modal-dialog {
