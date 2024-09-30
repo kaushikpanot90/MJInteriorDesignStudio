@@ -1,1 +1,1 @@
-# MJInteriorDesignStudio-
+# MJ Interior Design Studio
