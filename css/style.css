@@ -2439,10 +2439,10 @@ figure.effect-ruby:hover figcaption {
   height: auto;
 }
 
-.sub-slider .ftco-cover-1 {
+/* .sub-slider .ftco-cover-1 {
   background-size: contain;
   min-height: 430px;
-}
+} */
 
 @media screen and (min-width: 1400px) {
   .modal-dialog {
@@ -2470,6 +2470,11 @@ figure.effect-ruby:hover figcaption {
 
   .get-touch .icon-map-marker::before {
     min-height: 90px;
+  }
+
+  .heading-39291 {
+    margin-bottom: 20px;
+    margin-top: 30px;
   }
 }
 
